@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/36ee6317e7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="assets/images/ShriyaPingulkar-logo1.png" alt="Shriya Pingulkar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Shriya Pingulkar">Shriya Pingulkar</h1>
+
+          <p class="title">Software Developer</p>
+
+          <!-- <p class="title" style="margin-top: 10px">Software Developer</p> -->
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="document-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Resume</p>
+              <a href="https://drive.google.com/file/d/1fHXYUUPr9kZajPk6gaeH6rgWkDXvjn1K/view?usp=sharing" target="_blank" class="contact-link">Resume</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:pingulkarshriya@gmail.com" class="contact-link">pingulkarshriya@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919833837578" class="contact-link">+91 9833837578</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">July 2, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mumbai, Maharashtra, India</address>
+            </div>
+
+          </li>
+
+          
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in /shriya-pingulkar/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/shriya02-coder" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+
+
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Accomplishments</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm an aspiring software developer, currently pursuing a Bachelor's degree in Information Technology with a focus on Artificial Intelligence. You can download my resume
+           <a href="https://drive.google.com/file/d/1fHXYUUPr9kZajPk6gaeH6rgWkDXvjn1K/view?usp=sharing" target="_blank" class="underline-link"> <b>here</b></a>.
+          </p>
+          <p> With a strong academic background and various internship experiences, I've had the opportunity to work on
+            a wide range of projects. From building <b>web and mobile applications</b> to tackling complex <b>ML
+              challenges</b> and ensuring <b>robust cybersecurity measures</b>, I thrive in tackling diverse problems.
+          </p>
+          <p>My passion for writing clean, maintainable code and my commitment to continuous learning drive me to stay
+            updated with the latest advancements in the industry. </p>
+          <p>Outside of coding, I enjoy writing, reading and travelling. I also love participating in hackathons and
+            have received accolades for the same.</p>
+          <p>I am constantly looking for ways to challenge myself and expand my skillset. I am a passionate, quick
+            learner who thrives in fast-paced environments. If you're looking for a motivated developer to join your
+            team, I would love to hear from you!</p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design</h4>
+
+                <p class="service-item-text">
+                  Clean and responsive website design using HTML, CSS, Bootstrap, ReactJS, and Figma.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  Developing full-stack web applications using MERN, Django, Flask and other frameworks.
+                </p>
+              </div>
+
+            </li>
+
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                <!-- <ion-icon name="phone-portrait-outline" size="large" class="colored-icon"></ion-icon> -->
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile App Development</h4>
+
+                <p class="service-item-text">
+                  Building native iOS and Android apps using Flutter and Dart.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev2.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Developing ML models for classification, prediction, and more using Python, TensorFlow, Keras, SciKit-Learn, NLTK, and more.
+                </p>
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+        <!--
+          - certifications
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Certifications</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1VOETMOT2W0PSwPUQbwdah3matcpfwlOm/view" target="_blank">
+                <img src="./assets/images/logo-1-color.png" alt="google">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.coursera.org/account/accomplishments/verify/68EHWD9JRGDT?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank">
+                <img src="./assets/images/logo-2-color.png" alt="microsoft">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/16PFEpvwB9DVGoSRq9dPhhsTC069inxcw/view?usp=sharing" target="_blank">
+                <img src="./assets/images/logo-3-color.png" alt="amazon">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/u/1/d/1pPBpbDKEhJmxCz9e-741YwiK4rlasoEO/view" target="_blank">
+                <img src="./assets/images/logo-4-color.png" alt="cisco">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.coursera.org/account/accomplishments/verify/DQ9ANFZ3Z4NG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank">
+                <img src="./assets/images/logo-5-color.png" alt="ibm">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.futurelearn.com/certificates/0e3b5z0" target="_blank">
+                <img src="./assets/images/logo-6-color.png" alt="accenture">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.coursera.org/account/accomplishments/verify/6FF8A5BAVBXG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank">
+                <img src="./assets/images/logo-7-color.png" alt="deeplearning.ai">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">K.J. Somaiya College of Engineering</h4>
+
+              <span> 2020-Present </span>
+
+
+
+              <p class="timeline-text">
+                BTech. Information Technology & Honors in Artificial Intelligence 
+              </p>
+              <p class="timeline-text">
+                CGPA: 9.72
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shubham Raje Junior College</h4>
+
+              <span>2018-2020</span>
+
+              <p class="timeline-text">
+                H.S.C. Examinations (PCMB)
+              </p>
+              <p class="timeline-text">
+                CGPA: 8
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">D.A.V Public School</h4>
+
+              <span>Till 2018</span>
+
+              <p class="timeline-text">
+                C.B.S.E. Examinations
+              </p>
+              <p class="timeline-text">
+                CGPA: 10
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Internship Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer Program (SEP) Intern at J.P Morgan Chase & Co.</h4>
+              <span>Jun 2023 to Jul 2023</span>
+
+              <p class="timeline-text">
+
+                - Collaborated on the development of a cloud-native data solution for institutional investors to provide
+                comprehensive data management and analytics.
+              </p>
+              <p class="timeline-text">
+                - Assisted the development of an internal application to enhance developer productivity, leveraging
+                React and Typescript for front-end development, while utilizing Python and the FastAPI framework for
+                back-end services.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Research Intern at Kunato.AI</h4>
+
+              <span>Aug 2022 to Nov 2022</span>
+
+              <p class="timeline-text">
+                - Conducted in-depth analysis of patents, papers, and other sources using Python and SQL, driving
+                product development. </p>
+              <p class="timeline-text">
+                - Advanced the organization's technological capabilities by implementing various algorithms and machine
+                learning models. </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Intern at K.J Somaiya College of Engineering</h4>
+
+              <span>Jan 2022 to Aug 2022</span>
+
+              <p class="timeline-text">
+                - Analysed, researched, documented and helped to develop various approaches and methodologies to form a
+                predictive model that predicts the disease from the endoscopic images.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">In-House Intern at K.J Somaiya College of Engineering</h4>
+
+              <span>Aug 2021 to Nov 2021</span>
+
+              <p class="timeline-text">
+                - Developed a dynamic web scraper allowing for targeted data extraction from web pages, enabling users
+                to obtain precise and tailored data for their specific needs. </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio <br>Highlights</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>App development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>App development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/shriya02-coder/Inquest" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/Inquest.png" alt="Inquest" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Inquest- Virtual Research Assistant for Women</h3>
+
+
+
+
+                <div class="project-tech-container">
+                  <p class="project-tech">MERN</p>
+                  <p class="project-tech">Material UI</p>
+                  <p class="project-tech">Postman</p>
+                </div>
+
+                <p class="project-category">Developed a virtual research assistant catering to the unique challenges
+                  faced by women in academia by providing comprehensive tools for literature search, reference
+                  management, collaborative writing, and task management. Thus, empowering female researchers to enhance
+                  productivity, foster collaboration, and promote gender equality in research and academia.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/shriya02-coder/A.Iris" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/AIris.png" alt="A.Iris" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">A.Iris- Advanced Ocular Disease Detection Web Application</h3>
+                <div class="project-tech-container">
+                  <p class="project-tech">Python</p>
+                  <!-- <p class="project-tech">Flask</p> -->
+                  <p class="project-tech">TensorFlow</p>
+                  <p class="project-tech">Streamlit</p>
+                </div>
+                <p class="project-category">Created a sophisticated web application utilizing advanced machine learning
+                  models and a user-friendly interface, to precisely detect and diagnose ocular diseases like diabetic
+                  retinopathy, cataract, and redness, addressing inconsistencies in clinical diagnoses and enhancing
+                  patient outcomes.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/shriya02-coder/DermaAssist" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/DermaAssist.png" alt="DermaAssist" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DermaAssist- Automating classification for diagnosis.</h3>
+                <div class="project-tech-container">
+                  <!-- <p class="project-tech">Python</p> -->
+                  <p class="project-tech">Flask</p>
+                  <p class="project-tech">TensorFlow</p>
+                  <!-- <p class="project-tech">TailwindCSS</p> -->
+                  <p class="project-tech">Firebase</p>
+                </div>
+                <p class="project-category">An automated classification system for skin diseases, that utilizes CNNs to
+                  achieve high accuracy in skin lesion diagnosis, while also enabling secure sharing of diagnoses with
+                  healthcare professionals by implementing robust data transfer security measures.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/shriya02-coder/Probe" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/Probe.png" alt="Probe" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Probe - Chrome extension for summarization</h3>
+                <div class="project-tech-container">
+                  <p class="project-tech">JavaScript</p>
+                  <p class="project-tech">HTML5 & CSS3</p>
+                  <p class="project-tech">MV3</p>
+                </div>
+
+                <p class="project-category">Browser extension for Google Chrome that summarizes any open webpage that is
+                  primarily text-based, such as a news article, encyclopedia entry, or blog </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/shriya02-coder/Confidaent" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/Confidant.png" alt="Confidænt" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Confidænt- Travel safety app with secure route planning</h3>
+                <div class="project-tech-container">
+                  <p class="project-tech">JavaScript</p>
+                  <p class="project-tech">HTML5 & CSS3</p>
+                  <p class="project-tech">Python</p>
+
+                </div>
+                <p class="project-category">A women safety web application which generates the safest route of travel
+                  from a woman’s current location to any destination using the Google Maps API and allows them to
+                  retrieve their location coordinates, and share them.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app development">
+              <a href="https://github.com/shriya02-coder/SpaceVest" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/SpaceVest.png" alt="SpaceVest" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SpaceVest- Sustainable Investment Platform </h3>
+                <div class="project-tech-container">
+                  <p class="project-tech">Flutter</p>
+                  <p class="project-tech">Dart</p>
+                  <p class="project-tech">ReactJS</p>
+
+                </div>
+                <p class="project-category">Created a comprehensive investing platform comprising an introductory web
+                  application and mobile app, promoting sustainability through diverse and sustainable investment
+                  options, and providing advisory and portfolio generation features for companies and investors.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/shriya02-coder/Insight-Therapy" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/InsightTherapy.png" alt="InsightTherapy" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">InsightTherapy- Mental Health Appointment Booking System</h3>
+                <div class="project-tech-container">
+                  <p class="project-tech">PHP</p>
+                  <p class="project-tech">MySQL</p>
+                  <p class="project-tech">JavaScript</p>
+                  <p class="project-tech">Bootstrap</p>
+                </div>
+                <p class="project-category">A streamlined mental health appointment booking system to provide patients with a user-friendly platform to easily schedule appointments with mental health professionals, while equipping professionals with an efficient solution to manage their schedules and ensure optimal care for those in need.
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app development">
+              <a href="https://github.com/shriya02-coder/PokeGo" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pokego.png" alt="PokeGo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PokeGo- The ultimate Pokemon encyclopedia</h3>
+                <div class="project-tech-container">
+                  <p class="project-tech">Flutter</p>
+                  <p class="project-tech">Dart</p>
+                  <p class="project-tech">Firebase</p>
+                  <p class="project-tech">Figma</p>
+                </div>
+
+                <p class="project-category">A comprehensive web application serving as an encyclopedic Pokémon
+                  reference, providing detailed data profiles for all Pokémon including stats, moves, evolutions, and
+                  strengths/weaknesses.
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/shriya02-coder/JPMC_Code_For_Good" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/Saathi.png" alt="Saathi" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Saathi- Building bonds through better healthcare</h3>
+                <div class="project-tech-container">
+                  <p class="project-tech">JQuery</p>
+                  <p class="project-tech">Bootstrap</p>
+                  <p class="project-tech">MySQL</p>
+                  <p class="project-tech">Node.js</p>
+                </div>
+
+                <p class="project-category">A solution enabling Aanganwadi workers to enhance the effectiveness of their counseling sessions by providing timely and context-specific inputs to mothers through a decision tree,
+                  facilitating referrals, and enabling easy tracking of patient progress.
+                </p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/shriya02-coder/Web-Scraper" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/WebScraper.png" alt="Web Scraper" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web Scraper - Dynamic web scraper</h3>
+                <div class="project-tech-container">
+                  <p class="project-tech">Python</p>
+                  <p class="project-tech">BeautifulSoup</p>
+                  <p class="project-tech">Flask</p>
+                </div>
+
+                <p class="project-category">A dynamic web scraper allowing for targeted data extraction from
+                  web pages, enabling users to obtain precise and tailored data for their specific needs.</p>
+
+              </a>
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+
+      <article class="accomplishments" data-page="accomplishments">
+        <header>
+          <h2 class="h2 article-title">Key <br> Accomplishments</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Awards & Scholarships</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Scholarships</h4>
+              <p class="timeline-text">
+                - Awarded a highly selective <b>Google and TalentSprint</b> scholarship to participate in the
+                prestigious 2-year Women Engineers mentorship program after competing against over 27,000 candidates
+                through 3 rigorous rounds of assessments.
+              </p>
+              <p class="timeline-text">
+                - Granted a scholarship by <b>AWS and Udacity</b> to undertake a nanodegree in Machine Learning
+                Foundations.
+              </p>
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hackathons</h4>
+              <p class="timeline-text">
+                - Placed <b>first</b> in Web/App development at <b>Hackerstellar</b> by C.S.I KJSCE.
+              </p>
+              <p class="timeline-text">
+                - Placed <b>second</b> at the largest <b>J.P Morgan 'Code for Good' Hackathon 2022</b>.
+              </p>
+              <p class="timeline-text">
+                - Placed in <b>Top 30</b> teams and got shortlisted for the prototype phase of CITI Digital Innovation
+                Challenge.
+              </p>
+              <p class="timeline-text">
+                - Placed in <b>Top 20</b> teams at <b>Hackstreet</b> by Jaypee Institute of Technology.
+              </p>
+              <p class="timeline-text">
+                - Participated in SheHacks 6.0, Rakathon'22 and Royal Hackaway.
+              </p>
+
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Competitions</h4>
+              <p class="timeline-text">
+                - <b>Octo-finalist</b> at <b>Big Somaiya Debate</b>, a National Competition.
+              </p>
+              <p class="timeline-text">
+                - Selected in <b>Top 7</b> teams at <b>DIGITAL GAMBIT – A Digital Marketing Competition</b> held at KJSCE.
+              </p>
+            </li>
+
+
+
+          </ol>
+
+        </section>
+
+         <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Mentorship & Programs</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mentorship</h4>
+              <p class="timeline-text">
+                - Selected for mentorship under <b>Cybersecurity professional Jennifer Cox</b> as part of a Women in
+                Tech mentorship program.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Programs</h4>
+              <p class="timeline-text">
+                - Earned admittance into the exclusive <b>Amazon Machine Learning Summer School 2022</b> program
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Positions of Responsibility</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <ion-icon name="library-outline" style="font-size: 30px" class="colored-icon" ></ion-icon>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Illuminati</h4>
+                <p  data-testimonials-position hidden > Co-chief at Illuminati • The official Literary club of KJSCE
+                </p>
+              
+                <p data-testimonials-avatar hidden>
+                  <ion-icon name="library-outline" style="font-size: 30px" class="colored-icon"></ion-icon>
+                </p>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    - Coordinated and led a dynamic team in organizing engaging literary events,
+                    fostering a vibrant literary community within the college.
+                  <br>
+                    - Developed and implemented innovative initiatives, including a collaborative blog, to promote creative expression and engage students in literary pursuits.
+                  </p>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <ion-icon name="document-text-outline" style="font-size: 30px" class="colored-icon"></ion-icon>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Kshitij</h4>
+                <p  data-testimonials-position hidden > Editor at Kshitij • The official literary magazine of KJSCE
+                </p>
+
+                <p data-testimonials-avatar hidden>
+                  <ion-icon name="document-text-outline" style="font-size: 30px" class="colored-icon"></ion-icon>
+                </p>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    - Edited and refined literary works in multiple languages, including vernacular languages like Hindi and Marathi,
+                    within the college.
+                  <br>
+                    - Collaborated with a team of writers, designers, and proof-readers to ensure
+                    seamless production and timely distribution of the magazine.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <ion-icon name="people-outline" style="font-size: 30px" class="colored-icon"></ion-icon>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Enactus</h4>
+                <p data-testimonials-position hidden > Member at Enactus Somaiya Social Cell </p>
+                <p data-testimonials-avatar hidden>
+                  <ion-icon name="people-outline" style="font-size: 30px" class="colored-icon"></ion-icon>
+                </p>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    - Actively participated in social entrepreneurship projects, developing sustainable
+                    solutions to address pressing social issues.
+                  <br>
+                    - Contributed to the successful implementation of impactful initiatives, including
+                    various development programs, informative sessions and informative workshops.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <p class="colored-icon" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <p style="color: var(--light-gray-70); font-size: 14px; margin-bottom: 5px" data-modal-blog-meta> </p>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        
+
+
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15073.64982704272!2d72.96517889077032!3d19.17717927863564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8db87dc0033%3A0xf315b33e45611bb0!2sThane%20East%2C%20Thane%2C%20Maharashtra%20400603!5e0!3m2!1sen!2sin!4v1690991320519!5m2!1sen!2sin" 
+            width="400" height="300"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="mailto:pingulkarshriya@gmail.com" method="post" enctype="text/plain" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+
+      </article>
+
+    </div>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
