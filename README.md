@@ -1,6 +1,6 @@
 
 # Personal Portfolio Website
-
+![image](Portfolio.png)
 ## Introduction
 This repository contains the README for my personal portfolio website. The actual website and its contents are hosted elsewhere. This README provides an overview and a link to access my portfolio.
 
