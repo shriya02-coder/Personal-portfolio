@@ -20,7 +20,7 @@ The portfolio showcases my work, skills, and projects in a professional and visu
 
 
 #### Note
-This repository is kept minimal and only contains this README as per my personal organization preferences. The code and detailed content are maintained privately.
+This repository is kept minimal and only contains this README as per my personal preference. The code and detailed content are maintained privately.
 
 Thank you for your interest in my portfolio!
 
